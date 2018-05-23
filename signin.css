@@ -1,0 +1,49 @@
+body {
+    background-color: rgba(98, 180, 234, 0.89);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.hide {
+    display: none;
+}
+
+.item {
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    border: 1px solid black;
+    height: auto;
+    width: 560px;
+}
+
+h4 {
+    font-size: 2.1em;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+#temperature {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+#tempunit{
+    cursor:pointer;
+    color:#006dcc;
+}
+#tempunit:hover{
+    color:#005096;
+}
+
+#comment {
+    font-size: 1.4em;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+

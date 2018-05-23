@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Weather app</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+</head>
+
+<body class="">
+
+<div class="container">
+    <div class="item p-4">
+        <h4 class="">the weather in <span id="city">your city</span><span id="country"></span>:</h4>
+        <hr class="m-1 p-0">
+        <blockquote class="blockquote">
+            <p class="mb-0" id="loading">loading...</p>
+            <p class="mb-0 hide" id="temperature"><span id="temp">loading...</span>° <span id="tempunit">C</span></p>
+            <p class="mb-0 hide" id="comment">loading...</p>
+            <p class="mb-0 hide" id="minMax">loading...</p>
+            <p class="mb-0 hide" id="image"></p>
+        </blockquote>
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+
+</html>
